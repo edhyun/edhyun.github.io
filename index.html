@@ -17,6 +17,14 @@
 	background-color: green;
 }
 
+.title{
+	text-align: center;
+}
+
+#map{
+	width:100%;
+}
+
 @media (max-width: 768px) {
     .fill { 
 	    min-height: 100%;
@@ -28,19 +36,20 @@
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-12 col-md-4">
-				<hr/>
+			<div class="col-sm-12 col-md-4">				
+			<!--
 				<div id="main_img">
 					<img src="img/main.jpg" class="img-responsive">
 				</div>
+			-->
 				<div id="main_msg">
-					<img src="img/main_msg.png" class="img-responsive">
+					<img src="main.jpg" class="img-responsive">
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-4">
 				<hr/>
-				<h1>section2</h1>
-				<img src="http://hall.fki.or.kr/images/intro_place_img01.jpg" class="img-responsive">
+				<h3 class="title">오시는 길</h3>
+				<img src="http://hall.fki.or.kr/images/intro_place_img01.jpg" id="map" class="img-responsive">
 			</div>
 			<div class="col-sm-12 col-md-4">
 				<hr/>
